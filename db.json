@@ -1,0 +1,68 @@
+{
+  "knowledgeEntries": [
+    {
+      "id": "1",
+      "title": "Getting Started with React",
+      "description": "Learn the fundamentals of React including components, hooks, and state management for modern web development.",
+      "category": "Auto-Mobiles",
+      "status": "certified",
+      "createdAt": "2024-01-15",
+      "techName": "Sarah Chen",
+      "prodTime": "5 months",
+      "views": 1247
+    },
+    {
+      "id": "2",
+      "title": "TypeScript Best Practices",
+      "description": "Essential patterns and practices for writing maintainable and type-safe TypeScript code in large applications.",
+      "category": "Auto-Mobiles",
+      "status": "certified",
+      "createdAt": "2024-01-12",
+      "techName": "Alex Rodriguez",
+      "prodTime": "8 months",
+      "views": 892
+    },
+    {
+      "id": "3",
+      "title": "Tailwind CSS Guide",
+      "description": "Master utility-first CSS with Tailwind. Learn responsive design, components, and optimization techniques.",
+      "category": "Auto-Mobiles",
+      "status": "cerifified",
+      "createdAt": "2024-01-10",
+      "techName": "Maya Patel",
+      "prodTime": "6 years",
+      "views": 0
+    },
+    {
+      "title": "API Design Demon",
+      "description": "RESTful API design best practices, authentication, versioning, and documentation strategies for scalable APIs.",
+      "category": "Lathe",
+      "status": "training",
+      "techName": "James Demon",
+      "prodTime": "13 months",
+      "id": "4"
+    },
+    {
+      "id": "1759516035371",
+      "title": "test",
+      "description": "testing",
+      "category": "Lathe",
+      "status": "certified",
+      "techName": "tester",
+      "prodTime": "23 days",
+      "createdAt": "2025-10-03",
+      "views": 0
+    },
+    {
+      "id": "1759612184192",
+      "title": "New Tech",
+      "description": "cant develop a rabbit hole",
+      "category": "Backend",
+      "status": "published",
+      "techName": "James Demon",
+      "prodTime": "13 min read",
+      "createdAt": "2025-10-04",
+      "views": 0
+    }
+  ]
+}
