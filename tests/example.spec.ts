@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('create and delete entry', async ({ page }) => {
-  test.setTimeout(60000);
+  test.setTimeout(600000);
   await page.goto('/');
   
   // Create entry

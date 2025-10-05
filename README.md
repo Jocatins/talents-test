@@ -1,14 +1,26 @@
-# An assessment to test my skills on CRUD operatons
+#  CRUD Skills Assessment Project
 
-Walkthrough on project set up 
+> A hands-on project designed to demonstrate my ability to perform **CRUD operations** (Create, Read, Update, Delete) with a clean and functional setup.  
+> Includes a simple backend powered by **JSON Server** and automated tests using **Playwright**.
 
-git clone url
- cd into folder
- run npm install => should install all needed packages
+---
 
- run npm i json-server -g
- run npm dev
- run json-server --watch db.json --port 3001
+##  Project Setup Guide
+
+Follow these steps to get your environment up and running:
+
+### 1️ Clone the Repository
+```bash
+git clone <https://github.com/Jocatins/talents-test>
+
+cd project-folder
+
+npm install
+
+npm install -g json-server
+
+json-server --watch db.json --port 3001
+
+npx playwright test --headed
 
 
-Enjoy!!!

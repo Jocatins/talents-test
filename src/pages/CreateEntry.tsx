@@ -141,14 +141,15 @@ const CreateKnowledgeEntry: React.FC = () => {
                   required
                   value={formData.title}
                   onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-                  className="w-full px-[16px] py-[12px] border border-[#E2E8F0] rounded-[8px] focus:outline-none focus:ring-2 focus:ring-[#3182CE] focus:border-transparent text-[14px] leading-[20px] placeholder-[#A0AEC0]"
+                  className="w-full px-[16px] py-[12px] border border-[#E2E8F0] rounded-[8px] focus:outline-none focus:ring-2 focus:ring-[#3182CE] focus:border-transparent text-[14px] leading-[20px] placeholder-[#A0AEC0] overflow-hidden"
                   placeholder="Enter a descriptive title for your knowledge entry..."
                   disabled={createLoading}
                 />
+              
               </div>
 
               {/* Description */}
-              <div className="w-full">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-[16px]  w-full">
                 <label className="block text-[14px] font-medium text-[#1A202C] leading-[20px] mb-[8px]">
                   Description *
                 </label>
